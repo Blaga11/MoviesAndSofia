@@ -34,10 +34,9 @@ section {
 .hero {
     height: 100%;
     /* Credit image : Unsplash - Luke Chesser */
-    background: url(/images/Avatar.jpg);
     image-rendering: pixelated;
     background-size: cover;
-    background-position: center;
+    background: url(/images/Avatar.jpg) center;
 }
 .hero .content {
     background: rgba(0, 0, 0, 0.5);
